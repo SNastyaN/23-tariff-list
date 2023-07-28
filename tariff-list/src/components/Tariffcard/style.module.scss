@@ -1,13 +1,29 @@
 .blue {
-    color: aquamarine;
+    
+    color: rgb(244, 246, 245);
+    background-color: rgb(84, 163, 163);
+    margin: auto;
+    
 }
 .green {
-    color: rgb(53, 127, 41);
+    color: rgb(254, 254, 254);
+    background-color: rgb(102, 163, 84);
+    margin: auto;
 
 }
 .red{
-    color: rgb(233, 72, 57);
+    color: rgb(255, 255, 254);
+    background-color: rgb(163, 98, 84);
 }
 .black {
-    color: rgb(58, 57, 57);
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 76, 76);
+}
+.card {
+    display: grid;
+   grid-template-rows: 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    
+    
 }

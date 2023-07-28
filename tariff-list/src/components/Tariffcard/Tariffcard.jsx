@@ -2,8 +2,8 @@ import tariffs from '../../data/tariff.json';
 import st from './style.module.scss'
 function Tariffcard(){
     return (
-        <div>
-            <div className="card">
+        <div className='list'>
+            <div className={st.card}>
                 {
                    tariffs.map((tariff)=>(
                     <div className={st[tariff.color]}>
